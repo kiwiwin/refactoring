@@ -1,0 +1,10 @@
+apply plugin: "idea"
+apply plugin: "java"
+
+dependencies {
+    repositories {
+        mavenCentral()
+    }
+
+    testCompile "junit:junit:4.11"
+}
